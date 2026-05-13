@@ -1,0 +1,13 @@
+developer
+tester
+company
+
+User Management Commands:
+
+sudo adduser developer
+sudo adduser tester
+
+sudo groupadd company
+
+sudo usermod -aG company developer
+sudo usermod -aG company tester
